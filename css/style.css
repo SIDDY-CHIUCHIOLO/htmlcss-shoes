@@ -4,15 +4,18 @@
     margin: 0;
 }
 
-body button{
-    font-family: 'Lexend Deca', sans-serif;
+section {
+    width: 98.9vw;
+    height: 100vh;
+    position: relative;
 }
 
 header{
     position: absolute;
     right: 0;
     top: 50px;
-    z-index: 5;
+    z-index: 1;
+
 }
 
 header button{
@@ -28,21 +31,37 @@ a{
     text-decoration: none;
 }
 
-section{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    z-index: 1;
-}
-
-#a1{
+#article1{
     background-color: red;
 }
 
-#a2{
+#article2{
     background-color: #41ad1a;
 }
 
-#a3{
+#article3{
     background-color: yellow;
+}
+
+main div{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main img{
+    width: 100%;
+}
+
+main h1{
+    color: yellow;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+}
+
+#titolo-verde{
+    color: green;
 }
