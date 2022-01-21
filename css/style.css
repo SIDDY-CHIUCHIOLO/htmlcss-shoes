@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+button, h1{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
 section {
     width: 98.9vw;
     height: 100vh;
@@ -32,19 +36,19 @@ a{
 }
 
 #article1{
-    background-color: red;
+    background-color: #ff0000;
 }
 
 #article2{
-    background-color: #41ad1a;
+    background-color: #008000;
 }
 
 #article3{
-    background-color: yellow;
+    background-color: #ffff00;
 }
 
 main div{
-    width: 50%;
+    width: 35%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -56,12 +60,11 @@ main img{
 }
 
 main h1{
-    color: yellow;
-    font-size: 50px;
+    color: #ffff00;
+    font-size: 40px;
     text-align: center;
-    font-weight: 900;
 }
 
 #titolo-verde{
-    color: green;
+    color: #008000;
 }
